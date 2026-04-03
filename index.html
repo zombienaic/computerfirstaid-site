@@ -700,7 +700,7 @@ function handleSubmit() {
   // mailto fallback — replace with Cloudflare Workers or Formspree later
   const subject = encodeURIComponent('Computer First Aid - Contact from ' + (name || 'Website'));
   const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
-  window.location.href = 'mailto:cian@computerfirstaid.net?subject=' + subject + '&body=' + body;
+  window.location.href = 'mailto:cfa@computerfirstaid.net?subject=' + subject + '&body=' + body;
   msg.textContent = 'Opening your email client...';
   msg.style.color = 'var(--text-secondary)';
 }
