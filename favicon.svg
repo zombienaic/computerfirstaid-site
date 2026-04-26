@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Dark background, rounded square (iOS will round further) -->
+  <rect width="180" height="180" rx="36" fill="#0a0a0a"/>
+  <!-- Red ring accent -->
+  <circle cx="90" cy="90" r="62" fill="none" stroke="#c0392b" stroke-width="3" opacity="0.4"/>
+  <!-- "CFA" monogram, bold, centered -->
+  <text x="90" y="90"
+        font-family="Outfit, -apple-system, Helvetica, sans-serif"
+        font-weight="800"
+        font-size="58"
+        fill="#f0f0f0"
+        text-anchor="middle"
+        dominant-baseline="central"
+        letter-spacing="-2">CFA</text>
+  <!-- Small red plus mark, top-right -->
+  <g transform="translate(132 48)">
+    <rect x="-2" y="-10" width="4" height="20" fill="#e74c3c" rx="1"/>
+    <rect x="-10" y="-2" width="20" height="4" fill="#e74c3c" rx="1"/>
+  </g>
+</svg>
